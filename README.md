@@ -1,4 +1,4 @@
-# ndosi_profile_automation
+## Ndosi_Profile_Automation
 Production-grade E2E and API test automation suite built with Playwright (TypeScript) utilizing the Page Object Model architecture. Features automated profile picture uploads, UI/API response validations, HTML reporting, and nightly CI/CD execution via GitHub Actions.
 
 ```markdown
@@ -220,7 +220,7 @@ jobs:
 
 * **Developer:** Xolisile Zwane
 * **Role:** Automation / QA Engineer
-* **GitHub:** [https://github.com/your-username](https://www.google.com/search?q=https://github.com/your-username)
+* **GitHub:** [https://github.com/your-username](https://www.google.com/search?q=https://github.com/Xolisile-Zwane)
 
 ```
 
