@@ -82,8 +82,8 @@ The testing suite validates critical web application workflows across both UI an
 
 1. **Clone the Repository**
 ```bash
-git clone [https://github.com/your-username/playwrightE2eAutomation.git](https://github.com/your-username/playwrightE2eAutomation.git)
-cd playwrightE2eAutomation
+git clone [https://github.com/Xolisile-Zwane/ndosi_profile_automation.git](https://github.com/Xolisile-Zwane/ndosi_profile_automation.git)
+cd ndosi_profile_automation
 
 ```
 
