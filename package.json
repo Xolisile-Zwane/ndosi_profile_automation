@@ -1,9 +1,15 @@
 {
   "name": "ndosi_profile_automation",
   "version": "1.0.0",
-  "description": "Production-grade E2E and API test automation suite built with Playwright (TypeScript) utilizing the Page Object Model architecture. Features automated profile picture uploads, UI/API response validations, HTML reporting, and nightly CI/CD execution via GitHub Actions.",
+  "description": "Ndosi Automation UI and API End-to-End Test Suite.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+  "test": "npx playwright test",
+  "test:ui": "playwright test e2e",
+  "test:api": "playwright test api",
+  "test:headed": "playwright test --headed",
+  "report": "playwright show-report"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Xolisile-Zwane/ndosi_profile_automation.git"
@@ -18,6 +24,7 @@
   "homepage": "https://github.com/Xolisile-Zwane/ndosi_profile_automation#readme",
   "devDependencies": {
     "@playwright/test": "^1.63.0",
-    "@types/node": "^26.4.1"
+    "@types/node": "^26.4.1",
+    "typescript": "^5.0.0"
   }
 }
