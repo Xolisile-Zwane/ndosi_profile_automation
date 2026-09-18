@@ -1,0 +1,20 @@
+import fs from 'fs';
+import path from 'path';
+
+export function createAllureEnvironment() {
+  const resultsDir = path.join(process.cwd(), 'allure-results');
+  if (!fs.existsSync(resultsDir)) {
+    fs.mkdirSync(resultsDir, { recursive: true });
+  }
+
+  const envContent = `
+URL=https://www.ndosiautomation.co.za/APIDEV/
+Browser=Chromium
+OS=${process.platform}
+NodeVersion=${process.version}
+Environment=Staging
+Tester=Xolisile Zwane
+  `.trim();
+
+  fs.writeFileSync(path.join(resultsDir, 'environment.properties'), envContent);
+}
