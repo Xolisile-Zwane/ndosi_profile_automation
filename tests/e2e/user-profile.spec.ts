@@ -19,8 +19,8 @@ test.describe('Ndosi Automation - Profile Picture Upload Suite', () => {
     await userProfilePage.editProfile();
 
     // 4. Resolve path and upload picture
-    const imagePath = path.resolve(__dirname, '../../fixtures/test-data/sample-avatar.jpg');
-    await userProfilePage.uploadProfilePicture(imagePath);
+    // const imagePath = path.resolve(__dirname, 'src/fixtures/test-data/sample-avatar.png');
+    await userProfilePage.uploadProfilePicture('sample-avatar.png');
 
     // 5. Assert update and capture screenshot
     await userProfilePage.verifyProfilePictureUpdated();
