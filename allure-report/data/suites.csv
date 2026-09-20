@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","688","3. PUT Update User Profile with Base64 Avatar","chromium","2026-09-18","failed","2026-09-18","Ndosi API Suite - User Profile Endpoints","api/profile-endpoints.spec.ts","",""
+"","5898","UI Test: Upload profile picture successfully","chromium","2026-09-18","passed","2026-09-18","Ndosi Automation - Profile Picture Upload Suite","e2e/user-profile.spec.ts","",""
+"","1170","3. POST Profile Picture Upload via API","chromium","2026-09-18","failed","2026-09-18","Ndosi API Suite - User Profile Endpoints","api/profile-endpoints.spec.ts","",""
+"","849","2. GET User Profile Details","chromium","2026-09-18","failed","2026-09-18","Ndosi API Suite - User Profile Endpoints","api/profile-endpoints.spec.ts","",""
+"","1083","Positive login via API - class user","chromium","2026-09-18","passed","2026-09-18","Ndosi API Suite - User Profile Endpoints","api/profile-endpoints.spec.ts","",""

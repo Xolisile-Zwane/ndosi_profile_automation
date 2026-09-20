@@ -1,0 +1,5 @@
+Update Profile Response: {
+  success: false,
+  message: 'Session is no longer valid. Please log in again.',
+  error_code: 'SESSION_INVALIDATED'
+}
