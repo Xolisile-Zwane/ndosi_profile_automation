@@ -20,12 +20,8 @@ export class UserProfilePage extends BasePage {
   }
 
   async uploadProfilePicture(fileName: string) {
-    // const absoluteFilePath = path.resolve(__dirname, filePath);
-    // await this.fileUploadInput.setInputFiles(absoluteFilePath);
-    // await this.saveChangesButton.click();
-    // Dynamically build the exact absolute path from project root
-    const absoluteFilePath = path.join(process.cwd(), 'src', 'fixtures', 'test-data', fileName);
-    await this.fileUploadInput.setInputFiles(absoluteFilePath);
+    const filePath = path.join(process.cwd(), 'src', 'data', fileName);
+    await this.fileUploadInput.setInputFiles(filePath);
     await this.saveChangesButton.click();
   }
 

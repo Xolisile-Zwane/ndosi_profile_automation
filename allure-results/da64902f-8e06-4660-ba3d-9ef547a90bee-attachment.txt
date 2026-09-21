@@ -1,0 +1,5 @@
+Upload Response: {
+  success: false,
+  message: 'Profile image file is required',
+  error_code: 'MISSING_PROFILE_IMAGE'
+}

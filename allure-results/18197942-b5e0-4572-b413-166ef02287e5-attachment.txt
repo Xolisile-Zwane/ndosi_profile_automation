@@ -1,0 +1,8 @@
+Upload Response: {
+  success: false,
+  message: 'Endpoint not found',
+  error_code: 'ENDPOINT_NOT_FOUND',
+  requested_path: '/profile/upload-avatar',
+  requested_method: 'POST',
+  hint: 'Visit GET / for a list of all available endpoints'
+}

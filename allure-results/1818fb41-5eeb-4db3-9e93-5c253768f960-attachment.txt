@@ -1,0 +1,22 @@
+Update Profile Response: {
+  success: true,
+  message: 'Profile updated successfully',
+  data: {
+    Id: '3dc085d7-f4c0-487f-90f7-ac11e9804081',
+    FirstName: 'Xolisile',
+    LastName: 'Zwane',
+    Email: 'xoli1234@gmail.com',
+    ProfileImage: '/APIDEV/uploads/profile-images/3dc085d7-f4c0-487f-90f7-ac11e9804081_1790034030.png',
+    Role: 'user',
+    LinkedIn: null,
+    PhoneNumber: null,
+    YearsOfExperience: null,
+    GithubUsername: null,
+    NextOfKinPhone: null,
+    AboutMe: 'Automation engineer testing profile update',
+    CreatedAt: '2026-09-17 12:02:23',
+    UpdatedAt: '2026-09-22 01:40:30',
+    IsActive: 1,
+    SessionId: '9cdbb29f-29e0-4466-ac34-502742977741'
+  }
+}
