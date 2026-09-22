@@ -1,5 +1,6 @@
 import { defineConfig, devices } from '@playwright/test';
 import { on } from 'node:cluster';
+import fs from 'fs';import path from 'path';
 
 /**
  * Read environment variables from file.
@@ -8,7 +9,21 @@ import { on } from 'node:cluster';
 // import dotenv from 'dotenv';
 // import path from 'path';
 // dotenv.config({ path: path.resolve(__dirname, '.env') });
+const resultsDir = path.join(__dirname, 'allure-results');
+if (!fs.existsSync(resultsDir)) {
+  fs.mkdirSync(resultsDir, { recursive: true });
+}
 
+const envContent = `
+URL=https://www.ndosiautomation.co.za/APIDEV/
+Browser=Chromium
+OS=${process.platform}
+NodeVersion=${process.version}
+Environment=Staging
+Tester=Xolisile Zwane
+`.trim();
+
+fs.writeFileSync(path.join(resultsDir, 'environment.properties'), envContent);
 /**
  * See https://playwright.dev/docs/test-configuration.
  */

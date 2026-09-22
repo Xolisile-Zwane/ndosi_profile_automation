@@ -1,5 +1,0 @@
-Profile Response: {
-  success: false,
-  message: 'Invalid or expired token',
-  error_code: 'INVALID_TOKEN'
-}

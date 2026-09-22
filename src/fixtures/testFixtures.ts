@@ -2,6 +2,7 @@ import { test as base} from '@playwright/test';
 import { LoginPage } from '../pages/LoginPage';
 import { UserProfilePage } from '../pages/UserProfilePage';
 import { HomePage } from '../pages/HomePage';
+import { attachment } from 'allure-js-commons';
 
 // Define fixture types
 type ProjectFixtures = {
@@ -13,6 +14,23 @@ type ProjectFixtures = {
 
 // Extend the base test with your Page Objects and API client
 export const test = base.extend<ProjectFixtures>({
+  page: async ({ page }, use, testInfo) => {
+    // 1. Run the test
+    await use(page);
+
+    // 2. Check if the test failed or timed out
+    if (testInfo.status !== testInfo.expectedStatus) {
+      const screenshot = await page.screenshot({ fullPage: true });
+
+      // 3. Attach screenshot directly to Allure
+      await attachment(
+        `Failure Screenshot - ${testInfo.title}`,
+        screenshot,
+        'image/png'
+      );
+    }
+  },
+
   loginPage: async ({ page }, use) => {
     await use(new LoginPage(page));
   },

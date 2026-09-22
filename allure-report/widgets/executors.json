@@ -1,1 +1,1 @@
-[{"name":"GitHub Actions","type":"github","url":"https://github.com/your-repo/actions","buildOrder":1,"buildName":"Playwright E2E & API Workflow #1","buildUrl":"https://github.com/your-repo/actions/runs/123456"}]
+[{"name":"Local Test Execution","type":"playwright","url":"https://www.ndosiautomation.co.za","buildOrder":1,"buildName":"Ndosi Profile API Suite #1","buildUrl":"http://localhost:8080","reportName":"Ndosi Automation Allure Report","reportUrl":"http://localhost:8080/report"}]
