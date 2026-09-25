@@ -1,0 +1,20 @@
+{
+  success: true,
+  message: 'Login successful',
+  data: {
+    user: {
+      id: '3dc085d7-f4c0-487f-90f7-ac11e9804081',
+      firstName: 'Xolisile',
+      lastName: 'Zwane',
+      email: 'xoli1234@gmail.com',
+      role: 'user',
+      groupId: '84e73141-6bac-478b-af93-ee03ad492e21',
+      groupName: '2027 All Stars Class',
+      approvalStatus: 'approved',
+      createdAt: '2026-09-17 12:02:23',
+      updatedAt: '2026-09-22 03:01:18'
+    },
+    token: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOiIzZGMwODVkNy1mNGMwLTQ4N2YtOTBmNy1hYzExZTk4MDQwODEiLCJlbWFpbCI6InhvbGkxMjM0QGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwic2Vzc2lvbklkIjoiYzJlMDY5N2EtOWUxYi00ODI3LTk4MDQtOTBiZDQ4NmE0M2MxIiwiaWF0IjoxNzkwMTg5NTI2LCJleHAiOjE3OTAyNzU5MjZ9.i9Tq6A8xUlFvuLITL7fq80GdCJQ_7f8XE5qPugxz5rM',
+    sessionId: 'c2e0697a-9e1b-4827-9804-90bd486a43c1'
+  }
+}
