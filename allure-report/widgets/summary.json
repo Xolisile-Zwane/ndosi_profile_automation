@@ -1,1 +1,1 @@
-{"reportName":"Ndosi Automation Allure Report","testRuns":[],"statistic":{"failed":1,"broken":0,"skipped":0,"passed":4,"unknown":0,"total":5},"time":{"start":1790037734332,"stop":1790037739505,"duration":5173,"minDuration":9,"maxDuration":5151,"sumDuration":6979}}
+{"reportName":"Ndosi Automation Allure Report","testRuns":[],"statistic":{"failed":0,"broken":0,"skipped":0,"passed":5,"unknown":0,"total":5},"time":{"start":1790414771704,"stop":1790414776851,"duration":5147,"minDuration":429,"maxDuration":5082,"sumDuration":7904}}

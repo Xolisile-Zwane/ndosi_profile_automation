@@ -1,0 +1,22 @@
+Update Profile Response: {
+  success: true,
+  message: 'Profile updated successfully',
+  data: {
+    Id: '3dc085d7-f4c0-487f-90f7-ac11e9804081',
+    FirstName: 'Xolisile',
+    LastName: 'Zwane',
+    Email: 'xoli1234@gmail.com',
+    ProfileImage: '/APIDEV/uploads/profile-images/3dc085d7-f4c0-487f-90f7-ac11e9804081_1795089375.png',
+    Role: 'user',
+    LinkedIn: 'https://github.com/AveeNog',
+    PhoneNumber: '0811234567',
+    YearsOfExperience: 7,
+    GithubUsername: 'admin@gmail.com',
+    NextOfKinPhone: '0711234567',
+    AboutMe: 'Automation engineer testing profile update',
+    CreatedAt: '2026-09-17 12:02:23',
+    UpdatedAt: '2026-11-19 13:56:15',
+    IsActive: 1,
+    SessionId: '0efe0d8f-fb15-461c-8b5b-4ae4188e4121'
+  }
+}
